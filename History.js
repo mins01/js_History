@@ -20,7 +20,7 @@ const History = (function(){
 		}
 		clear(){
 			if(this.debug) console.log('h.clear');
-			this.i=-1;
+			this.i=0;
 			this.hs=[];
 		}
 		undo(){
